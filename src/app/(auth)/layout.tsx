@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";  //for checking active links using url paths
 import "./styles.css"
 
 const navLinks = [
